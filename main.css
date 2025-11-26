@@ -1,0 +1,93 @@
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #4b595c;
+    background: #ffffff;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 80px 40px 80px;
+    line-height: 44px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 5px;
+    color: #3b4a4d;
+}
+
+.hero .date {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #7c8a8d;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 50px 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #7ba2a5;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.hero h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: #3b4a4d;
+}
+
+.intro {
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6c7b7e;
+}
+
+.btn {
+    padding: 12px 28px;
+    border: 1px solid #bfcacb;
+    background: #ffffff;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.features {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 70px;
+    padding: 40px 20px;
+}
+
+.feature {
+max-width: 260px;
+}
+
+.feature h3 {
+    color: #3b4a4d;
+    font-size: 18px;
+}
+
+.feature p {
+    line-height: 26px;
+    color: #6c7b7e;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #9aa6a7;
+    font-size: 14px;
+}
